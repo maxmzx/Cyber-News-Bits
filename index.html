@@ -75,7 +75,7 @@
         <div class="articles-container">
 
           <article class="card bg-dark">
-            <img src="img/logo_openrefine.png" alt="">
+            <img src="img/Flastarlogo.jpg" alt="">
             <div>
               <div class="category category-ent">Malware Attack</div>
               <h3>
@@ -99,34 +99,35 @@
             <img src="img/article/malware.png" alt="">
             <div class="category category-sports">Technology</div>
             <h3>
-              <a href="article.html">"Zanubis Android Banking Trojan Poses as Peruvian Government App, Threatens User Data and Device Control"</a>
+              <a href="article.html">"PEACHPIT Ad Fraud Botnet Exploits Hundreds of Thousands of Android and iOS Devices, Part of China-Based Operation BADBOX"</a>
             </h3>
-            <p>An emerging Android banking trojan named Zanubis has adopted a new disguise, posing as a legitimate Peruvian government app to deceive unsuspecting users into installing the malware. This trojan, known for targeting financial entities in the Latin American region, employs various tactics to compromise user data and take control of Android devices.</p>
+            <p> <b>Over 15 Million Installations of Infected Apps Detected Across 227 Countries and Territories</b>
 
-<p>Details:
-The Zanubis Android banking trojan, initially identified in August 2022, has resurfaced with a troubling new approach. It is now masquerading as an official Peruvian government application to gain access to users' devices. Security researchers from Kaspersky recently published an analysis revealing the trojan's tactics.</p>
+<b>The Scope of the Operation:</b>
 
-<p>Infection Method:
-Zanubis primarily infects devices by impersonating legitimate Android applications in Peru. Once installed, it tricks users into granting Accessibility permissions, allowing it to take complete control of the device.</p>
+<p>The PEACHPIT botnet has made headlines due to its vast reach, with associated apps detected in 227 countries and territories. At its peak, the botnet was estimated to have controlled 121,000 Android devices daily and 159,000 iOS devices daily. The operation was orchestrated through a collection of 39 apps that had been installed over 15 million times.</p>
 
-<p>Malicious Capabilities:
-Zanubis is notorious for its ability to misuse Accessibility permissions, displaying fake overlay screens on top of legitimate apps to steal user credentials. It can also harvest contact information, list installed apps, and gather system metadata.</p>
+<b>The Malicious Activities:</b>
 
-<p>Recent Activity:
-Kaspersky observed instances of Zanubis in the wild in April 2023, where it posed as the official Peruvian customs and tax agency app known as "Superintendencia Nacional de Aduanas y de Administración Tributaria" (SUNAT). This deception involves loading the actual SUNAT website using Android's WebView to appear legitimate.</p>
+<p>Devices infected with PEACHPIT were manipulated to steal sensitive data, create residential proxy exit peers, and commit ad fraud through counterfeit apps. Although it's still unclear how Android devices were compromised with a firmware backdoor, evidence suggests a hardware supply chain attack was involved. Additionally, threat actors used the backdoored devices to create WhatsApp and Gmail accounts, evading typical bot detection.</p>
 
-<p>Ongoing Control:
-The trojan maintains connections to a server controlled by threat actors, allowing them to send further commands using WebSockets. Zanubis actively monitors the apps launched on the device, comparing them to a list of targeted apps. If a targeted app is opened, it records keystrokes or captures the screen to steal sensitive data.</p>
+<b>Previous Discoveries and Attribution:</b>
 
-<p>Unique Feature:
-What sets Zanubis apart is its ability to impersonate an Android operating system update. During this fake "update," the device becomes virtually unusable, as the trojan actively blocks attempts to lock or unlock the phone.</p>
+<p>Details about this criminal enterprise were first documented by cybersecurity firm Trend Micro in May 2023, with the operation attributed to an adversary known as Lemon Group. The investigation identified over 200 distinct Android device types, including mobile phones, tablets, and connected TV products, exhibiting signs of BADBOX infection, indicating the widespread nature of this operation.</p>
 
-<p>Industry Insights:
-This discovery coincides with AT&T Cybersecurity's report on another Android-based threat called MMRat, a remote access trojan (RAT) capable of capturing user input and screen content. RATs are favored by hackers for their broad range of capabilities, including data reconnaissance, exfiltration, and long-term persistence.</p>
+<b>Counterfeit Apps and Ad Fraud Techniques:</b>
 
-<p>Security Recommendations:
-To protect against Zanubis and similar threats, users are urged to exercise caution when installing applications, especially those from unverified sources. Additionally, regularly updating and patching Android devices is crucial to staying secure in an evolving threat landscape.</p>       </article>
+<p>One notable aspect of the ad fraud scheme was the use of counterfeit apps on major app marketplaces such as the Apple App Store and Google Play Store. Within these apps, a module created hidden WebViews used to request, render, and click on ads while masquerading ad requests as originating from legitimate apps.</p>
 
+<b>Cybersecurity Response:</b>
+
+<p>Cybersecurity firm HUMAN worked closely with Apple and Google to disrupt the operation. It's worth noting that the majority of BADBOX's infrastructure, including the servers powering the firmware backdoor infection, has been taken down by the threat actors. However, an update pushed out earlier this year removed the modules powering PEACHPIT on BADBOX-infected devices in response to mitigation measures deployed in November 2022, suggesting that the attackers are adapting their tactics to evade detection.</p>
+
+<b>The Ongoing Threat:</b>
+
+<p>The level of obfuscation employed by the threat actors is indicative of their increased sophistication, making it challenging to detect and combat the operation. Individuals are advised to remain vigilant, and buyers of electronic devices are cautioned to be mindful of their sources to avoid inadvertently purchasing infected products.</p>
+
+<p>As the investigation continues, the cybersecurity community is working tirelessly to stay one step ahead of cybercriminals like those behind PEACHPIT and BADBOX.</p>
           <article class="card bg-dark">
             <img src="img/article/malware.png" alt="">
             <div class="category category-tech">Technology</div>
