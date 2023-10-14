@@ -75,25 +75,31 @@
         <div class="articles-container">
 
           <article class="card bg-dark">
-            <img src="img/Flastarlogo.jpg" alt="">
+            <img src="img/attack.png" alt="">
             <div>
               <div class="category category-ent">Malware Attack</div>
               <h3>
                 <a href="article.html">Flagstar Bank and Fiserv Data Breach Exposes Personal Information of Over 800,000 Customers</a>
               </h3><p>
-<p> 1. Data Breach Details: Flagstar Bank, a major American commercial bank, experienced a data breach that affected over 800,000 US customers. The breach occurred through a third-party service provider, Fiserv, which provides payment processing and mobile banking services to Flagstar Bank.</p>
+<p>1. Delivery Method: DarkGate is being distributed through instant messaging applications, where a Visual Basic for Applications (VBA) loader script is sent, masquerading as a PDF document. When the recipient opens this document, it triggers the download and execution of an AutoIt script, which ultimately launches the DarkGate malware.</p>
 
-<p> 2. MOVEit Vulnerability: The breach was linked to vulnerabilities discovered in MOVEit Transfer, a file transfer software used by Fiserv to support its services for Flagstar Bank and related institutions. Unauthorized activity in the MOVEit Transfer environment took place between May 27 and 31, 2023, before the existence of this vulnerability was publicly disclosed.</p>
+<p>2. Unclear Origin of Compromised Accounts: It is uncertain how the attackers compromised the originating accounts used to send the malware, but it is hypothesized to be through either leaked credentials available on underground forums or the compromise of the parent organization.</p>
 
-<p>3. Scope of Impact: Flagstar Bank clarified that the vulnerability in MOVEit Transfer did not affect any of its own systems and did not disrupt its ability to serve its customers. However, it did result in the theft of personal information from over 800,000 US customers.</p>
+<p>3. DarkGate Malware: DarkGate is described as commodity malware that can harvest sensitive data from web browsers, conduct cryptocurrency mining, and allow remote control of infected hosts. It also serves as a downloader of additional payloads like the Remcos RAT.</p>
 
-<p>4. Customer Notifications: Flagstar Bank took swift action once it became aware of the data breach. It launched an investigation to determine the extent of the security incident and promptly notified the 837,390 affected US customers about the breach.</p>
+<p>4. Recent Surge in Attacks: Social engineering campaigns distributing DarkGate have witnessed a surge in recent months, using tactics like phishing emails and search engine optimization (SEO) poisoning to trick users into installing the malware. This increase in activity is attributed to the decision of the malware author to advertise and rent DarkGate on underground forums.</p>
 
-<p>5. Previous Data Breach: Interestingly, this wasn't the first data breach that Flagstar Bank experienced. In June 2022, the bank disclosed another data breach that impacted approximately 1.5 million individuals. However, details about that earlier attack were not shared. This breach occurred in early December 2021.</p>
+<p>5. Use of Microsoft Teams Chat Messages: Microsoft Teams chat messages have been used as a propagation vector for DarkGate. This technique exploits the trust between organizations and deceives recipients into executing the attached VBA script.</p>
 
-<p>6. Clop Ransomware Incident: Additionally, in March 2021, Flagstar Bank fell victim to an attack conducted by the Clop ransomware gang. Ransomware attacks typically involve encrypting a victim's data and demanding a ransom for its release. This incident, occurring before the data breaches mentioned above, suggests a history of cybersecurity challenges for the bank.</p>
+<p>6. Global Spread: Most of the DarkGate attacks have been detected in the Americas, followed by Asia, the Middle East, and Africa, according to Trend Micro.
 
-<p>It's essential for affected individuals to take appropriate measures to protect their personal information, such as monitoring their financial accounts, changing passwords, and considering identity theft protection services. Organizations like Flagstar Bank must continue to enhance their cybersecurity measures to prevent future incidents and protect customer data.</p></p> </article>
+<p>7. Infection Procedure: The VBA script acts as a conduit to fetch the legitimate AutoIt application and an associated AutoIT script responsible for launching the DarkGate malware. Another attack sequence involves sending a Microsoft Teams message with a ZIP archive attachment containing an LNK file, which runs a VBA script to retrieve and execute the DarkGate artifact.</p>
+
+<p>8. Malware Payloads: Cybercriminals can use DarkGate to infect systems with various types of malware, including information stealers, ransomware, remote management tools, and cryptocurrency miners.</p>
+
+<p>9. Risk with Instant Messaging Apps: As long as external messaging is allowed or abuse of trusted relationships via compromised accounts goes unchecked, this technique for initial entry can be used with any instant messaging app.</p>
+
+
 
           <article class="card">
             <img src="img/article/malware.png" alt="">
